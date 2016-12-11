@@ -56,7 +56,7 @@ void MineSweeper::endGame(){
 }
 
 void MineSweeper::startGame() {
-	cout << "welcome come to stupid command-line MineSweeper game... " << endl;
+	cout << "welcome to command-line MineSweeper game... " << endl;
 	initBoard();
 	printBoard();
 	while (gameState == CONTINUE) {
